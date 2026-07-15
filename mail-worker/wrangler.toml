@@ -41,7 +41,7 @@ analysis_cache = false			#是否开启分析数据缓存
 orm_log = false			#是否sql日志
 domain = ["moonny888.qzz.io","moonny.qzz.io"]				#邮件域名可可配置多个 示例: ["example1.com","example2.com"]
 admin = "moonny@moonny888.qzz.io"				#管理员的邮箱	示例: admin@example.com
-jwt_secret = "jeajhjijfdhuawihdjkanjkdbghjawgDHjwahujkdhhj"			#jwt令牌的密钥,随便填一串字符串
+jwt_secret = "a1ea4f75-9043-47bc-a365-bffc345185d5"			#jwt令牌的密钥,随便填一串字符串
 
 [build]
 command = "pnpm --prefix ../mail-vue install && pnpm --prefix ../mail-vue run build"
